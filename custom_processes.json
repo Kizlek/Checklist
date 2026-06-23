@@ -1,0 +1,170 @@
+{
+  "processes": {
+    "General Startup": {
+      "Start": [
+        {
+          "item": "Main power supply is ON",
+          "process_note": "Ne pozabi dat na vodo klipsne swithca"
+        },
+        {
+          "item": "PLC communication is healthy",
+          "process_note": ""
+        },
+        {
+          "item": "Emergency stop circuit is reset",
+          "process_note": ""
+        },
+        {
+          "item": "HMI/SCADA screen is responding",
+          "process_note": ""
+        },
+        {
+          "item": "No active critical alarms",
+          "process_note": ""
+        },
+        {
+          "item": "Pump status is normal",
+          "process_note": ""
+        },
+        {
+          "item": "Valve positions are correct",
+          "process_note": ""
+        },
+        {
+          "item": "Tank level is within operating range",
+          "process_note": ""
+        },
+        {
+          "item": "Pressure is within operating range",
+          "process_note": ""
+        },
+        {
+          "item": "Area is clean and safe for operation",
+          "process_note": ""
+        }
+      ],
+      "End": [
+        {
+          "item": "Process has been stopped from SCADA",
+          "process_note": ""
+        },
+        {
+          "item": "Equipment is in a safe final state",
+          "process_note": ""
+        },
+        {
+          "item": "No new critical alarms are active",
+          "process_note": ""
+        },
+        {
+          "item": "Final readings have been checked",
+          "process_note": ""
+        },
+        {
+          "item": "Shift handover notes are complete",
+          "process_note": ""
+        }
+      ]
+    },
+    "Pump Start": {
+      "Start": [
+        {
+          "item": "Pump area is clear",
+          "process_note": ""
+        },
+        {
+          "item": "Suction valve is open",
+          "process_note": ""
+        },
+        {
+          "item": "Discharge valve is in the correct position",
+          "process_note": ""
+        },
+        {
+          "item": "Pump motor is available",
+          "process_note": ""
+        },
+        {
+          "item": "No active pump alarms",
+          "process_note": ""
+        },
+        {
+          "item": "Start command has been confirmed",
+          "process_note": ""
+        },
+        {
+          "item": "Flow is stable after start",
+          "process_note": ""
+        }
+      ],
+      "End": [
+        {
+          "item": "Pump stop command has been confirmed",
+          "process_note": ""
+        },
+        {
+          "item": "Pump motor status is stopped",
+          "process_note": ""
+        },
+        {
+          "item": "Flow has returned to zero or expected standby value",
+          "process_note": ""
+        },
+        {
+          "item": "Final pump alarms have been checked",
+          "process_note": ""
+        }
+      ]
+    },
+    "Tank Transfer": {
+      "Start": [
+        {
+          "item": "Source tank level is sufficient",
+          "process_note": ""
+        },
+        {
+          "item": "Destination tank has available capacity",
+          "process_note": ""
+        },
+        {
+          "item": "Transfer route valves are aligned",
+          "process_note": ""
+        },
+        {
+          "item": "Pump or transfer device is available",
+          "process_note": ""
+        },
+        {
+          "item": "No active high-level or low-level alarms",
+          "process_note": ""
+        },
+        {
+          "item": "Transfer flow is stable",
+          "process_note": ""
+        }
+      ],
+      "End": [
+        {
+          "item": "Transfer has been stopped",
+          "process_note": ""
+        },
+        {
+          "item": "Final source tank level has been checked",
+          "process_note": ""
+        },
+        {
+          "item": "Final destination tank level has been checked",
+          "process_note": ""
+        },
+        {
+          "item": "Transfer route has been returned to normal",
+          "process_note": ""
+        },
+        {
+          "item": "Final levels have been recorded",
+          "process_note": ""
+        }
+      ]
+    }
+  }
+}
