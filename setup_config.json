@@ -1,0 +1,64 @@
+{
+  "machine_process_map": {
+    "MCVD": [
+      "General Startup",
+      "MCA",
+      "Tank Transfer"
+    ],
+    "Stolp": [
+      "MCA",
+      "Capillary"
+    ],
+    "Plasma": [
+      "General Startup",
+      "Pump Start",
+      "Tank Transfer"
+    ],
+    "xxx": [
+      "General Startup"
+    ]
+  },
+  "machine_process_subprocess_map": {
+    "MCVD": {
+      "General Startup": [
+        "Standard"
+      ],
+      "MCA": [
+        "Standard"
+      ],
+      "Tank Transfer": [
+        "Standard"
+      ]
+    },
+    "Stolp": {
+      "MCA": [
+        "Cu",
+        "Al",
+        "Au",
+        "Ag"
+      ],
+      "Capillary": [
+        "Cu",
+        "Al",
+        "Au",
+        "Ag"
+      ]
+    },
+    "Plasma": {
+      "General Startup": [
+        "Standard"
+      ],
+      "Pump Start": [
+        "Standard"
+      ],
+      "Tank Transfer": [
+        "Standard"
+      ]
+    },
+    "Test": {
+      "Test": [
+        "Test Test"
+      ]
+    }
+  }
+}

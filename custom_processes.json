@@ -165,6 +165,34 @@
           "process_note": ""
         }
       ]
+    },
+    "MCA": {
+      "Start": [
+        {
+          "item": "Add start checklist item",
+          "process_note": ""
+        }
+      ],
+      "End": [
+        {
+          "item": "Add end checklist item",
+          "process_note": ""
+        }
+      ]
+    },
+    "Capillary": {
+      "Start": [
+        {
+          "item": "Add start checklist item",
+          "process_note": ""
+        }
+      ],
+      "End": [
+        {
+          "item": "Add end checklist item",
+          "process_note": ""
+        }
+      ]
     }
   }
 }
